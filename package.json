@@ -3,19 +3,12 @@
   "version": "1.0.0",
   "description": "A unified, central  online hub for B.F. clients and employees to store, share, and collect data on past, present, and future projects.",
   "main": "hello.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "bfc",
-    "portal",
-    "bfcportal",
-    "bfcportal.me"
-  ],
-  "author": "Dakota Bowman, Founder/C.O.O.",
-  "license": "ISC",
+  "author": "Dakota Bowman <dakotab@bowmanflooringcompany.com>",
+  "license": "MIT",
   "dependencies": {
     "bootstrap": "^5.0.1",
-    "env": "^0.0.2"
+    "chokidar": "^3.5.1",
+    "env": "^0.0.2",
+    "live-server": "^1.2.1"
   }
 }
